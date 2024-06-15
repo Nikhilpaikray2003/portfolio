@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Nikhil</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style__switcher__title">Theme Colors</h3>
+
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+        
+      </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class=" nav container">
+        <a href="index.html" class="nav__logo">Nikhil</a>
+
+        
+        <input type="checkbox" id="nav-toggler">
+
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Experience</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#works" class="nav__link">Portofolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+
+          
+
+         
+
+        </ul>
+
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title"><span>I'm</span> Nikhil <br /> a <span>Web-Developer</span></h1>
+            <p class="home__description">I'm a web developer passionate about crafting dynamic websites and applications.<br>
+             With expertise in both front-end and back-end development, I create immersive digital experiences that drive results.<br> 
+             Let's collaborate and build something extraordinary together.</p>
+
+             <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#portfolio" class="btn btn--transparent">Portofolio</a>
+             </div>
+            </div>
+
+            <div class="home__img-wrapper">
+              <img src="assets/img/resume.jpg" alt="" class="home__img">
+            </div>
+          </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/test.jpg" alt="" class="about__img" />
+            <img src="assets/img/test.jpg" alt="" class="about__img" />
+            <img src="assets/img/test.jpg" alt="" class="about__img" />
+            <img src="assets/img/test.jpg" alt="" class="about__img" />
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am i?">
+              I'm Nikhil Paikray,a Analytical Thinker and a Web-Developer
+
+            </h2>
+            <p class="about__description">Building websites and apps, a web developer makes the internet come alive.
+              They mix creativity and tech skills to create cool online stuff that's easy to use.
+              Thinking smart and figuring things out, an analytical thinker loves solving puzzles.
+              They use logic and clear thinking to solve problems and make things better.
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Nikhil Kumar Paikray</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">21 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">Bhubaneswar,Odisha</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <span class="data__description about__link">nikhilpaikray123@gmail.com</span>
+              </li>
+            </ul>
+            <div class="about__bottom">
+              <a href="./assets/pdf/Nikhil's_Resume(CV).pdf" class="btn">Download Cv</a>
+
+              <div class="about__social-links">
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/nikhilpaikray._?igsh=MzRlODBiNWFlZA==" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/nikhil.paikray.3?mibextid=ZbWKwL" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nikhil-paikray-0aa716231/" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">
+          Qualification
+        </h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+           <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Silicon University</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">B.Tech CST</h3>
+                    <span class="resume__date">2021-Present</span>
+                  </div>
+
+                  <p class="resume__description">
+                    B.Tech CST integrates computer science with telecommunications, preparing graduates for careers in network design, and communication technology.
+                  </p>
+                </div>
+              </div>
+           </div>
+          
+            
+           
+          
+
+          
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Rajdhani Higher Secondary School</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">12th</h3>
+                    <span class="resume__date">2019-2021</span>
+                  </div>
+
+                  <p class="resume__description">
+                    12th grade science curriculum covers physics, chemistry and IT equipping students with foundational knowledge for STEM fields.
+                  </p>
+                </div>
+              </div>
+          
+
+          
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Sri Aurobinda Institute Of Integral Education</h3>
+                <span class="resume__icon">+</span>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">10th</h3>
+                  <span class="resume__date">2018-2019</span>
+                </div>
+
+                <p class="resume__description">
+                  10th grade marks a milestone in education, covering core subjects and laying the groundwork for specialized study paths.
+                </p>
+              </div>
+            </div>
+           
+          </div>
+          <div class="resume__group">
+              <h3 class="resume__heading">Experience</h3>
+  
+              <div class="resume__items">
+                <div class="resume__item">
+                  <div class="resume__header">
+                    <h3 class="resume__subtitle">Mern Stack Developer</h3>
+                    <span class="resume__icon">+</span>
+                  </div>
+  
+                  <div class="resume__content">
+                    <div class="resume__date-title">
+                      <h3 class="resume__title">Code-Beat</h3>
+                      <span class="resume__date">2023</span>
+                    </div>
+  
+                    <p class="resume__description">
+                      At Code-Beat, MERN Stack Developers craft dynamic web applications using MongoDB, Express.js, React, and Node.js for seamless user experiences.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="resume__item">
+                  <div class="resume__header">
+                    <h3 class="resume__subtitle">AWS</h3>
+                    <span class="resume__icon">-</span>
+                  </div>
+  
+                  <div class="resume__content">
+                    <div class="resume__date-title">
+                      <h3 class="resume__title">Ingenious Tech.</h3>
+                      <span class="resume__date">2022</span>
+                    </div>
+  
+                    <p class="resume__description">
+                      At Ingenious Tech, AWS Interns gain hands-on experience in cloud computing, leveraging Amazon Web Services to optimize infrastructure and enhance scalability.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="resume__item">
+                  <div class="resume__header">
+                    <h3 class="resume__subtitle">Data Science Intern</h3>
+                    <span class="resume__icon">+</span>
+                  </div>
+  
+                  <div class="resume__content">
+                    <div class="resume__date-title">
+                      <h3 class="resume__title">Silicon University</h3>
+                      <span class="resume__date">2024</span>
+                    </div>
+  
+                    <p class="resume__description">
+                      At Silicon University, Data Science Interns analyze data, develop models, and derive insights to drive innovation and decision-making.
+                    </p>
+                  </div>
+                </div>
+
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">
+          What I do for you
+        </h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">UI/UX Design</h3>
+            <p class="services__description">
+              Designing intuitive and visually appealing user interfaces for software applications.
+            </p>
+
+            <span class="services__no">01</span>
+  
+  
+          </div>
+
+          <div class="services__item">
+             <i class="fa-solid fa-laptop services__icon"></i>
+            
+
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">
+              Creating websites, web applications, and APIs using various trending technologies to solve real life problems.
+            </p>
+
+            <span class="services__no">02</span>
+  
+  
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+           
+
+           <h3 class="services__title">Research and Analysis</h3>
+           <p class="services__description">
+            Gathering relevant data from various sources and organizing it for analysis.
+           </p>
+
+           <span class="services__no">03</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+           
+
+           <h3 class="services__title">Software Maintenance and Support</h3>
+           <p class="services__description">
+            Offering ongoing support, updates, and maintenance for existing software systems.
+           </p>
+
+           <span class="services__no">04</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+           
+
+           <h3 class="services__title">Database Design and Management</h3>
+           <p class="services__description">
+            Developing and managing databases to store and retrieve information efficiently.
+           </p>
+
+           <span class="services__no">05</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+           
+
+           <h3 class="services__title">Custom Software Development</h3>
+           <p class="services__description">
+            Building tailored software solutions to meet specific client needs.
+           </p>
+
+           <span class="services__no">06</span>
+          </div>
+
+        </div>
+
+        
+        
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section"> 
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Java</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skills__description">
+              Java: Powerful, versatile programming language used for building a wide range of applications, from web to mobile to enterprise software.      
+            </p>
+
+            <div class="skills_bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">HTML & CSS</h3>
+              <span class="skills__no">90 %</span>
+            </div>
+
+            <p class="skills__description">
+              HTML: Foundation of web pages. CSS: Styles and enhances HTML, making websites visually appealing and interactive. It mainly helps in UI/UX     
+            </p>
+
+            <div class="skills_bar">
+              <div class="skills__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Java Script</h3>
+              <span class="skills__no">65 %</span>
+            </div>
+
+            <p class="skills__description">
+              JavaScript: Essential scripting language for web development, adding interactivity and dynamic functionality to websites and applications.     
+            </p>
+
+            <div class="skills_bar">
+              <div class="skills__percentage" style="width: 65%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">React JS</h3>
+              <span class="skills__no">60 %</span>
+            </div>
+
+            <p class="skills__description">
+              React JS: Popular JavaScript library for building user interfaces, enabling efficient, modular, and interactive web applications with ease.     
+            </p>
+
+            <div class="skills_bar">
+              <div class="skills__percentage" style="width: 60%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">C++</h3>
+              <span class="skills__no">70 %</span>
+            </div>
+
+            <p class="skills__description">
+              C++: High-performance, versatile programming language used for system software, game development, and complex applications requiring efficiency and power.  
+            </p>
+
+            <div class="skills_bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skills__description">
+              Python: Versatile, beginner-friendly programming language known for its simplicity and readability, ideal for web development, data analysis tasks.      
+            </p>
+
+            <div class="skills_bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="My Portfolio">
+          Recent Works
+        </h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="assets/img/project-img-1.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-2.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Android App</h3>
+              
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-3.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">PhotoShop</h3>
+              
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-4.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">UI/UX Design</h3>
+              
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-5.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-6.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testimonials">
+          What My Clients Say
+        </h2>
+        <div class="testimonials__container container grid">
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Working with Nikhil was an absolute pleasure! Their expertise in web development brought our vision to life. Not only did they deliver a sleek and functional website, but their attention to detail and responsiveness throughout the project exceeded our expectations. We highly recommend Nikhil for anyone looking for a talented and reliable web developer.
+            </p>
+            <div class="testimonials__data">
+              <img src="assets/img/nitishT.jpg" alt="" class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">Nitish Panda</h3>
+                <span class="testimonials__identity">Pattaya,Thailand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Certainly, here's another example:
+
+Choosing Nikhil as our web developer was the best decision we made for our project. Their creativity, technical skills, and dedication were unmatched. They transformed our ideas into a stunning website that perfectly represents our brand. The communication was smooth, and the results exceeded our expectations.
+            </p>
+            <div class="testimonials__data">
+              <img src="assets/img/kaushik.jpg" alt="" class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">Kaushik Sahoo</h3>
+                <span class="testimonials__identity">Goa,India</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in Touch">
+          Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Us</h3>
+                <span class="contact__data">+918917399199</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email Us</h3>
+                <span class="contact__data">nikhilpaikray123@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__data">plot no.397,Pokhariput,Bhubaneswar-751020</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" placeholder="Name" class="input__control" />
+              </div>
+
+              <div class="form__input">
+                <input type="email"
+                 placeholder="Email" 
+                 class="input__control" 
+                 />
+              </div>
+            </div>
+
+            <div class="form__input">
+              <input type="text" placeholder="Subject" class="input__control" />
+            </div>
+
+            <div class="form__input">
+              <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
+
+              
+            </div>
+
+            <button class="btn contact__btn">Send Message</button>
+
+
+          </form>
+
+          
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">&copy; 2024 Nikhil. All Rights
+        Reserved</p>
+
+        <div class="footer__social-links">
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a href="https://www.instagram.com/nikhilpaikray._?igsh=MzRlODBiNWFlZA==" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://www.facebook.com/nikhil.paikray.3?mibextid=ZbWKwL" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nikhil-paikray-0aa716231/" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        
+        
+
+        
+      </div>
+    </footer>
+  </body>
+</html>
